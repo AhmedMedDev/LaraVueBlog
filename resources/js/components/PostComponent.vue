@@ -29,7 +29,7 @@
                 </div>
             </div>
         <!-- Modal -->
-        <!--  -->
+        <!--Post-->
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="card m-4" :id="'post' + aricle.id"  v-for="aricle in aricles" :key="aricle.id">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-        <!--  -->
+        <!--Post-->
     </div>
 </template>
 <script>
